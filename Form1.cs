@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 
 namespace VolumeDialog___Windows_Forms {
-    public partial class Form1 : Form {
+    public partial class VolumeForm : Form {
         delegate void setVolumeCallback();
         private Queue<int> volumeQueue;
-        public Form1() {
+        public VolumeForm() {
             InitializeComponent();
             volumeQueue = new Queue<int>();
             var enumer = new MMDeviceEnumerator();

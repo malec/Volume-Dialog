@@ -1,5 +1,5 @@
 ﻿namespace VolumeDialog___Windows_Forms {
-    partial class Form1 {
+    partial class VolumeForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -63,7 +63,7 @@
             // 
             this.fadeOutTimer.Tick += new System.EventHandler(this.fadeTimer_Tick);
             // 
-            // Form1
+            // VolumeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -73,7 +73,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.progressBar1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "VolumeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.TopMost = true;

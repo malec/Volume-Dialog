@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VolumeDialog - Windows Forms")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Volume Dialog")]
+[assembly: AssemblyDescription("Shows master volume level on the screen.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VolumeDialog - Windows Forms")]
+[assembly: AssemblyCompany("Ahlbrandt Software")]
+[assembly: AssemblyProduct("VolumeDialog")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
